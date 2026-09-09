@@ -57,7 +57,6 @@ export type DesktopMemoListParams = {
   notebookId?: string | null;
   notebookIds?: string[];
   q?: string;
-  tag?: string;
   trash?: boolean;
   sort?: "updated-desc" | "created-desc" | "title-asc";
   filter?: "all" | "pinned" | "tagged" | "untagged";
